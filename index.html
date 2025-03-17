@@ -7,39 +7,10 @@
     <title>Dominik m</title>
 </head>
 <body>
-
     <div id="website">
-        <header>
-            <div class="logo">
-                <img src="img/weblogo.webp" alt="Dominik s.r.o.">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Úvod</a></li>
-                    <li><a href="#">Produkty</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
-            </nav>
-        </header>
+        <!-- ... existing code ... -->
 
-        <div class="banner">
-            <div class="banner-image">
-            </div>
-            <div class="banner-text">
-                <h1>Vítejte na naší webové stránce</h1>
-                <p>Nabízíme nejvyšší kvalitu dřeva</p>
-            </div>
-        </div>
-
-        <div style="max-width: 400px;padding: 60px;">
-            <h2>Dobrý den, toto je nadpis</h2>
-
-        </div>
-
-        <div class="heading">
-            <h2>Proč si vybrat naše produkty?</h2>
-            <p>Naše firma nabízí nejvyšší kvalitu dřeva a naše produkty jsou na míru Vašim potřebám.</p>
-        </div> 
+        <!-- Oprava struktury features sekce -->
         <div class="features">
             <div class="feature">
                 <h3>Rychlé dodání</h3>
@@ -53,25 +24,31 @@
                 <h3>Produkty na míru</h3>
                 <p>Naše produkty jsou na míru Vašim potřebám. Můžeme Vám dle Vašeho přání přizpůsobit jakýkoliv produkt.</p>
             </div>
-            <div class="heading theme-primary">
-                <h2>Zaujali jsme Vás?</h2>
-                <button class="btn">Kontaktujte nás</button>
-            </div>
-            <div class="heading">
-                <h2>Naše produkty a služby</h2>
-                <p>Vyberte si z naší nabídky produktů.</p>
-            </div>
-            <div class="product section">
+        </div>
+
+        <div class="heading theme-primary">
+            <h2>Zaujali jsme Vás?</h2>
+            <button class="btn">Kontaktujte nás</button>
+        </div>
+
+        <!-- Oprava struktury produktové sekce -->
+        <div class="heading">
+            <h2>Naše produkty a služby</h2>
+            <p>Vyberte si z naší nabídky produktů.</p>
+        </div>
+
+        <section class="products">
+            <div class="product">
                 <div class="product-info">
                     <h2>Dubový masivní stůl</h2>
                     <p>Masivní dubový stůl o rozměrech 800×1200 mm je dostupný v několika variantách.</p>
                 </div>
                 <div class="product-image">
                     <img src="img/stul.webp" alt="Dubový masivní stůl">
-            
                 </div>
             </div>
-            <div class="product section reverse">
+
+            <div class="product reverse">
                 <div class="product-info">
                     <h2>Dubový masivní stůl</h2>
                     <p>Masivní dubový stůl o rozměrech 800×1200 ..</p>
@@ -79,7 +56,44 @@
                 <div class="product-image">
                     <img src="img/banerbg.jpg" alt="Dubový masivní stůl">
                 </div>
-        </div>
+            </div>
+        </section>
+
+        <!-- Oprava struktury kontaktní sekce -->
+        <section class="contact" id="kontakt">
+            <div class="contact-box">
+                <h2>Kontaktní adresa</h2>
+                <p>WoodMaster s.r.o.</p>
+                <p>Studentská náměstí 1154</p>
+                <p>68501 Uherské Hradiště</p>
+            </div>
+            
+            <div class="contact-box">
+                <h2>Kontaktujte nás</h2>
+                <p><a href="mailto:info@woodmaster.com">info@woodmaster.com</a></p>
+                <p><a href="tel:+420123456789">+420 123 456 789</a></p>
+            </div>
+            
+            <div class="contact-box">
+                <h2>Sledujte nás</h2>
+                <div class="social-icons">
+                    <a href="#"><svg></svg></a>
+                    <a href="#"><svg></svg></a>
+                    <a href="#"><svg></svg></a>
+                </div>
+            </div>
+        </section>
     </div>
+    <!-- Map Section -->
+<div class="map-section">
+    <iframe        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1482.11258247947!2d17.47352808648247!3d49.071593966832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713144138cbdae9%3A0xd3d4ac020fc270db!2zTcSbc3RhIE1heWVuIDE1MzYsIDY4NiAwMSBVaGVyc2vDqSBIcmFkacWhdMSbIDE!5e0!3m2!1sen!2scz!4v1741174167333!5m2!1sen!2scz" 
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
 </body>
 </html>
